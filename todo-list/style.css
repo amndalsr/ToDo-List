@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 2rem 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(123, 54, 131), rgb(212, 211, 119));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.planner{
+    color: white;
+}
+
+.principal .box{
+    font-size: 30px;
+    color: white;
+}
+.secundaria .box1{
+    color: white;
+    font-size: 30px;
+}
+.uil-user-circle{
+    font-size: 50px;
+}
+
+.todo {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.todo__title {
+    display: flex;
+    background-color: #803280d3;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px #351f3f;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.todo__list {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo__item{
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #331c42;
+}
+.todo__item > div {
+    width: 80%;
+}
+.todo__item:hover {
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #803280d3;
+    color: white;
+}
+
+
+.todo__item > input[type='text'] {
+    border: none;
+    width: 80%;
+    font: inherit;
+}
+
+.todo__item > input[type='button']{
+    border: none;
+    border-radius: 1rem;
+    width: 30px;
+    height: 30px;
+    font: inherit;
+}
+.todo__item > input[type='checkbox'] {
+    border: none;
+    border-radius: 1rem;
+    width: 30px;
+    height: 30px;
+    font: inherit;
+}
+.todo__item > input[type='button']:hover{
+    background: rgb(219, 86, 86);
+    cursor: pointer;
+}
+
+.todo__item > input[type='checkbox']:checked  + div {
+    text-decoration:line-through;
+}
+
+.todo__new-item{
+    display: flex;
+    background-color: #805e966e;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    box-shadow: 1px 1px 5px #331c42;
+    margin: 10px;
+    font: inherit;
+    border-radius: 1rem;
+}
+
+.todo__new-item > input{
+    background-color: #805e9600;
+    border: none;
+    width: 80%;
+    outline: none;
+    font: inherit;
+    color:aliceblue;
+}
+
+.todo__new-item > input::placeholder {
+    color: rgba(255, 255, 255, 0.411);
+    font-weight: normal;
+}
