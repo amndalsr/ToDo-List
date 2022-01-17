@@ -6,4 +6,4 @@
 
 ### Funcionalidaes:
 
-- Adicione uma tarefa
+- Adicione uma 
