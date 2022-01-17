@@ -4,4 +4,4 @@
 
 </div>
 
-### Funcionalidaes:
+### Funcional
