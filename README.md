@@ -6,4 +6,4 @@
 
 ### Funcionalidaes:
 
-- Adicione
+- Adi
