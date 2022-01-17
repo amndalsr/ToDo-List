@@ -7,6 +7,3 @@
 ### Funcionalidaes:
 
 - Adicione uma tarefa
-- Marque como conluída
-- 
-
