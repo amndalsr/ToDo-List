@@ -8,5 +8,5 @@
 
 - Adicione uma tarefa
 - Marque como conluída
-- Exclua uma tarefa antiga
+- Exclua uma tarefa
 
