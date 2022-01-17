@@ -10,33 +10,21 @@ html {
 
 body {
     font: 2rem 'Open Sans', sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(123, 54, 131), rgb(212, 211, 119));
+    background-image: linear-gradient(to bottom right, rgb(52, 41, 53), rgb(7, 7, 7));
     background-repeat: no-repeat;
     min-height: 100vh;
 }
 
-header{
+.cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 
 .planner{
     color: white;
-}
-
-.principal .box{
-    font-size: 30px;
-    color: white;
-}
-.secundaria .box1{
-    color: white;
-    font-size: 30px;
-}
-.uil-user-circle{
-    font-size: 50px;
 }
 
 .todo {
