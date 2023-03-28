@@ -13,6 +13,7 @@ body {
     background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/06/05/43833/lo-fi-12.jpg');
     background-repeat: no-repeat;
     min-height: 100vh;
+    background-size: cover;
 }
 
 .cabecalho{
