@@ -10,7 +10,7 @@ html {
 
 body {
     font: 2rem 'Open Sans', sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(52, 41, 53), rgb(7, 7, 7));
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/06/05/43833/lo-fi-12.jpg');
     background-repeat: no-repeat;
     min-height: 100vh;
 }
@@ -38,14 +38,14 @@ body {
 
 .todo__title {
     display: flex;
-    background-color: #803280d3;
+    background-color: #fd8a8aa2;
     width: 100%;
     height: 80px;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     border-radius: 1rem;
-    box-shadow: 2px 2px 5px #351f3f;
+    /*box-shadow: 2px 2px 5px #B5D5C5;*/
     font-size: 3rem;
     color: rgb(255, 255, 255);
 }
@@ -53,9 +53,22 @@ body {
 .todo__list {
     display: flex;
     width: 100%;
+    height: 350px;
     flex-direction: column;
     gap: 10px;
+    overflow-y: scroll;
+    background-color: #87a8a48f;
+    /*box-shadow: 2px 2px 5px #B5D5C5;*/
+    padding: 2em;
+    border-radius: 5px;
 }
+
+.todo__list::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+    border-radius: 20px;
+    background-color: #c5e4c8; 
+  }
 
 .todo__item{
     color: aliceblue;
@@ -66,7 +79,7 @@ body {
     align-items: center;
     padding: 5px;
     border-radius: 1rem;
-    box-shadow: 1px 1px 5px #331c42;
+    box-shadow: 1px 1px 5px rgb(93, 91, 82);
 }
 .todo__item > div {
     width: 80%;
@@ -74,7 +87,7 @@ body {
 .todo__item:hover {
     cursor: pointer;
     transition: all .5s ease;
-    background-color: #803280d3;
+    background-color: #c98474c9;
     color: white;
 }
 
@@ -100,7 +113,7 @@ body {
     font: inherit;
 }
 .todo__item > input[type='button']:hover{
-    background: rgb(219, 86, 86);
+    background: #ff8e8e;
     cursor: pointer;
 }
 
@@ -110,24 +123,24 @@ body {
 
 .todo__new-item{
     display: flex;
-    background-color: #805e966e;
+    background-color: #fd8a8aa2;
     width: 100%;
     height: 70px;
     justify-content: space-evenly;
     padding: 10px 0;
-    box-shadow: 1px 1px 5px #331c42;
+    box-shadow: 1px 1px 5px #caf7f4;
     margin: 10px;
     font: inherit;
     border-radius: 1rem;
 }
 
 .todo__new-item > input{
-    background-color: #805e9600;
+    background-color: #fd8a8a00;
     border: none;
     width: 80%;
     outline: none;
     font: inherit;
-    color:aliceblue;
+    color:#ffffff;
 }
 
 .todo__new-item > input::placeholder {
